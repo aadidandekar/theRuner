@@ -193,6 +193,16 @@ button:hover {
     clear: both;
 }
 
+.footer p {
+    font-size: 0.9em; /* Adjust font size for the legal paragraph */
+    opacity: 0.8; /* Reduce brightness */
+}
+
+.footer .footer-text {
+    font-size: 1.1em; /* Increase font size for "An Aadi Dandekar Production" */
+}
+
+
 h3 {
     color: #3276db;
 }
