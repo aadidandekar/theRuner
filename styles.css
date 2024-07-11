@@ -202,6 +202,7 @@ button {
     font-size: 1em;
     transition: background-color 0.3s ease;
     height: 54px; /* Match the height of input and dropdown */
+    min-height: 54px; /* Ensure minimum height on smaller screens */
 }
 
 button:hover {
