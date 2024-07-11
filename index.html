@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Runer</title>
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> <!-- Font Awesome for icons -->
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <h1 class="logo">The Runer</h1>
+        </div>
+    </header>
+    <main class="main">
+        <div class="form-container">
+            <form id="runForm" onsubmit="redirectToGoogleMaps(); return false;">
+                <label for="distance" class="sr-only">Enter distance in kilometers:</label>
+                <div class="search-bar">
+                    <select id="direction" name="direction" required>
+                        <option value="" disabled selected>Select Direction</option>
+                        <option value="north">North</option>
+                        <option value="south">South</option>
+                        <option value="east">East</option>
+                        <option value="west">West</option>
+                        <option value="surprise">Surprise Me</option> <!-- Added option -->
+                    </select>
+                    <input type="number" id="distance" name="distance" placeholder="Enter distance in kilometers" required min="1">
+                    <button type="submit"><i class="fas fa-search"></i> Go</button>
+                </div>
+            </form>
+        </div>
+        <section class="information">
+            <div class="info-content">
+                <h2 class="info-title">How to Save This Website on Your Phone</h2>
+                <p>• Click the share icon at the top of your screen.<br>
+                   • Scroll down and select "Add to Home Screen".</p>
+                <h2 class="info-title">About The Runer</h2>
+                <p>"The Runer" optimizes your running experience by planning efficient routes. Just enter your desired distance, and get a route that's about half that distance.
+                </p>
+                <h3>Usage Instructions</h3>
+                <p>• Enter Distance: Input your distance in kilometers.<br>
+                  • Get Route: The tool will generate a route that's roughly half the distance.<br>
+                  • Reach Location: You don't have to follow the exact path. Aim to reach the generated location.<br>
+                </p>
+                <h3>Disclaimer</h3>
+                <p>• The provided path is approximate. Actual distance may vary due to terrain and other factors.<br>
+                  • Use your judgment for a safe and suitable route.<br>
+                  • "The Runer" aids in planning, but you're responsible for your safety and route choice.<br>
+                </p>
+                <h2 class="info-title">Contact Information</h2>
+                <ul class="contact-list">
+                    <li>Email: <a href="mailto:aadirohitdandekar@gmail.com">aadirohitdandekar@gmail.com</a></li>
+                    <li>Blog: <a href="https://aadirohitdandekar.blogspot.com/">aadirohitdandekar.blogspot.com</a></li>
+                    <li>X Profile: <a href="https://x.com/aadidandekar">x.com/aadidandekar</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer-text">An Aadi Dandekar Production</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
