@@ -194,8 +194,8 @@ button:hover {
 }
 
 .footer p {
-    font-size: 0.9em; /* Adjust font size for the legal paragraph */
-    opacity: 0.8; /* Reduce brightness */
+    font-size: 0.7em; /* Adjust font size for the legal paragraph */
+    opacity: 0.5; /* Reduce brightness */
 }
 
 .footer .footer-text {
