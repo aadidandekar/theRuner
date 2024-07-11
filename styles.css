@@ -193,6 +193,8 @@ input[type="number"] {
 }
 
 button {
+    z-index: 1; /* Ensure the button is above other elements */
+    position: relative;
     padding: 12px 18px; /* Adjust padding for smaller screens */
     background-color: #3276db;
     color: white;
